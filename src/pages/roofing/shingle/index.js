@@ -101,7 +101,7 @@ const ShingleRoofPage = () => {
         title="Meet Our Team"
         description={teamDescription()}
         image={MeetingRoomImage}
-        className="flex-row-reverse"
+        className="flex-row-reverse md:mt-16"
       />
       <RecentProjects
         title="Ready to Talk Roofing?"
