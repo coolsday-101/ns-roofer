@@ -34,7 +34,7 @@ const logos = [
   { src: EPPLogo, className: "h-[48px]" },
   { src: kentLogo, className: "h-[48px]" },
   { src: logoLogo, className: "h-[48px]" },
-  { src: OIPLogo, className: "h-[48px]" },
+  { src: OIPLogo, className: "h-[48px] mobile2:h-[100px]" },
   { src: picture2Logo, className: "h-[48px]" },
   { src: picture3Logo, className: "h-[48px]" },
   { src: rLogo, className: "h-[48px]" },

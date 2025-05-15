@@ -47,8 +47,8 @@ const BringSolarToLife = ({ projectData }) => {
   };*/
 
   return (
-    <div className="py-16 text-neutral-900 items-center justify-center w-full gap-6">
-      <h2 className="text-black text-[32px] font-semibold mb-6 justify-self-center text-center">
+    <div className="py-16 max-mobile2:py-9 text-neutral-900 items-center justify-center w-full gap-6">
+      <h2 className="text-black text-[32px] font-semibold mb-4 justify-self-center text-center">
         Project Gallery
       </h2>
       {/* Category Picker */}

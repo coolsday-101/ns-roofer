@@ -5,7 +5,7 @@ import QuotePrompt from './QuotePrompt';
 
 const ServicesYouCanTrust = ({title, description, cta = true, content}) => {
   return (
-    <section className="flex flex-col gap-12 p-16 border border-none bg-cloud-grey max-md:p-8 max-sm:p-6">
+    <section className="flex flex-col gap-12 max-mobile2:gap-9 p-16 max-mobile2:py-9 max-mobile2:px-[20px] border border-none bg-cloud-grey">
       <RoofingHeader title={title} description={description} />
       <ServicesGrid content={content} />
       {cta && <QuotePrompt />}
