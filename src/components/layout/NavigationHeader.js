@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
-import HamburgerMenu from "../../images/logo/hamburger-menu.png";
+import HamburgerMenu from "../../images/logo/white-burger.svg";
+import CloseIcon from "../../images/logo/icons8-close.svg";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 //import NSRooferLogo from "../../images/logo/ns-roofer-logo.svg";
@@ -40,7 +41,9 @@ export default function NavigationHeader() {
         <div className="relative h-[100%]" ref={dropdownRef}>
           <button
             className="flex gap-2 items-center text-sm font-bold text-white cursor-pointer hover:text-cyan1"
-            onClick={() => setDropdownOpen(!isDropdownOpen)}
+            onMouseEnter={() => setDropdownOpen(true)}
+            onMouseLeave={() => setDropdownOpen(false)}
+            onClick={() => setDropdownOpen(!isDropdownOpen)} // keep click for accessibility/touch
           >
             Services
             <svg
@@ -54,32 +57,44 @@ export default function NavigationHeader() {
             </svg>
           </button>
           {isDropdownOpen && (
-            <div className="absolute top-full left-0 mt-4 w-fit bg-blue1 shadow-lg z-10">
-              <Link
-                href="/roofing/shingle"
-                className="block px-4 py-2 text-sm text-white hover:text-cyan1"
+            <>
+              {" "}
+              <div
+                className="absolute h-[20px] w-[50px] z-100"
+                onMouseEnter={() => setDropdownOpen(true)}
+                onMouseLeave={() => setDropdownOpen(false)}
+              ></div>
+              <div
+                className="absolute top-full left-0 mt-4 w-fit bg-blue1 shadow-lg z-10"
+                onMouseEnter={() => setDropdownOpen(true)}
+                onMouseLeave={() => setDropdownOpen(false)}
               >
-                Roofing
-              </Link>
-              <Link
-                href="/insulation"
-                className="block px-4 py-2 text-sm text-white hover:text-cyan1"
-              >
-                Insulation
-              </Link>
-              <Link
-                href="/siding"
-                className="block px-4 py-2 text-sm text-white hover:text-cyan1"
-              >
-                Siding
-              </Link>
-              <Link
-                href="/repair"
-                className="block px-4 py-2 text-sm text-white hover:text-cyan1"
-              >
-                Repair
-              </Link>
-            </div>
+                <Link
+                  href="/roofing/shingle"
+                  className="block px-4 py-2 text-sm text-white hover:text-cyan1"
+                >
+                  Roofing
+                </Link>
+                <Link
+                  href="/insulation"
+                  className="block px-4 py-2 text-sm text-white hover:text-cyan1"
+                >
+                  Insulation
+                </Link>
+                <Link
+                  href="/siding"
+                  className="block px-4 py-2 text-sm text-white hover:text-cyan1"
+                >
+                  Siding
+                </Link>
+                <Link
+                  href="/repair"
+                  className="block px-4 py-2 text-sm text-white hover:text-cyan1"
+                >
+                  Repair
+                </Link>
+              </div>
+            </>
           )}
         </div>
         <Link
@@ -104,14 +119,17 @@ export default function NavigationHeader() {
         <>
           <div
             className="fixed inset-0 bg-black opacity-50 z-20"
-            onClick={(e) => { setDrawerOpen(false); e.stopPropagation(); }}
+            onClick={(e) => {
+              setDrawerOpen(false);
+              e.stopPropagation();
+            }}
           ></div>
-          <div className="fixed top-0 right-0 w-64 h-full bg-blue1 shadow-lg z-30 p-4">
+          <div className="fixed font-archivo top-0 right-0 w-64 h-full bg-blue1 shadow-lg z-30 p-4">
             <button
-              className="mb-4 text-white font-bold"
+              className="max-sm:block cursor-pointer absolute right-0 mr-4"
               onClick={() => setDrawerOpen(false)}
             >
-              Close
+              <img src={CloseIcon} alt="Close Menu" className="w-6 h-6" />
             </button>
             <Link href="/" className="block mb-2 text-white">
               Home

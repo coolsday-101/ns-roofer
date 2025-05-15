@@ -22,7 +22,9 @@ export default function TopBanner() {
         </p>
       </div>
       <button className="px-4 py-2 text-xs font-bold text-white bg-blue-600 rounded max-sm:mx-auto cursor-pointer">
-        Apply Now
+        <a href="https://www.financeit.ca/en/direct/payment-plan/YT0yOTkyOTEmbD0mcD03eGVwa1ZRYzJpVl9XVXhHc0RYX1d3JnM9MCZ2PTE=/apply">
+          Apply Now
+        </a>
       </button>
     </div>
   );
