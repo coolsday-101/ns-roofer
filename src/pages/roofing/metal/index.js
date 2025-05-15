@@ -12,7 +12,7 @@ import LogoBanner from "../../../components/LogoBanner/LogoBanner";
 import RoofBenefits from "../../../components/RoofBenefits/RoofBenefits";
 import kentLogo from "./logo/kent.jpg";
 import checklistData from "./checklistData";
-import recentProjectData from "./data/data";
+import recentProjectData from "../../../projectData/metal/data/recentProjectData";
 import MetalHeroImage from "./images/metal-hero.png";
 
 const roofDescription = () => {

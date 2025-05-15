@@ -10,7 +10,7 @@ import RecentProjects from "../../../components/RecentProjects/RecentProjects";
 import LogoBanner from "../../../components/LogoBanner/LogoBanner";
 
 import checklistData from "./checklistData";
-import recentProjectData from "./data/data";
+import recentProjectData from "../../../projectData/shingle/data/recentProjectData";
 
 import EPPLogo from "./logo/1.png";
 import kentLogo from "./logo/kent.jpg";

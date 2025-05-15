@@ -20,7 +20,7 @@ import top5Image from "./images/noise-reduction.png";
 import solarImage from "./images/moisture-control.png";
 import annualImage from "./images/tax-incentives.png";
 
-import recentProjectData from "./data/data";
+import recentProjectData from "../../projectData/insulation/data/recentProjectData";
 
 const features = [
   {

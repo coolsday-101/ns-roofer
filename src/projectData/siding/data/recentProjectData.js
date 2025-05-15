@@ -11,7 +11,7 @@ import siding6 from "./images/siding/siding6.jpg";
 import siding7 from "./images/siding/siding7.jpg";
 
 // Data Array
-const data = [
+const recentProjectData = [
     // Siding
     { img: siding1, label: "siding" },
     { img: siding2, label: "siding" },
@@ -21,5 +21,5 @@ const data = [
     { img: siding6, label: "siding" },
     { img: siding7, label: "siding" },
 ];
-  
-export default data;
+
+export default recentProjectData;

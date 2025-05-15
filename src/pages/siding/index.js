@@ -21,7 +21,7 @@ import CubeImage from "./icons/ion-cube.svg";
 import DeskImage from "./icons/desk-customer.svg";
 import WomanImage from "./icons/business-woman.svg";
 
-import recentProjectData from "./data/data";
+import recentProjectData from "../../projectData/siding/data/recentProjectData";
 
 const features = [
   {

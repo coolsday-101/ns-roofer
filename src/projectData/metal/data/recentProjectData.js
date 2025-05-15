@@ -12,7 +12,7 @@ import metal7 from "./images/metal/metal7.jpeg";
 import metal8 from "./images/metal/metal8.jpeg";
 
 // Data Array
-const data = [
+const recentProjectData = [
     // Metal
     { img: metal1, label: "metal" },
     { img: metal2, label: "metal" },
@@ -23,5 +23,5 @@ const data = [
     { img: metal7, label: "metal" },
     { img: metal8, label: "metal" },
 ];
-  
-export default data;
+
+export default recentProjectData;

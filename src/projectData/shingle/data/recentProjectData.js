@@ -21,7 +21,7 @@ import shingle16 from "./images/shingle/shingle16.jpg";
 import shingle17 from "./images/shingle/shingle17.jpg";
 
 // Data Array
-const data = [
+const recentProjectData = [
     // Shingle
     { img: shingle1, label: "shingle" },
     { img: shingle2, label: "shingle" },
@@ -41,5 +41,5 @@ const data = [
     { img: shingle16, label: "shingle" },
     { img: shingle17, label: "shingle" },
 ];
-  
-export default data;
+
+export default recentProjectData;
