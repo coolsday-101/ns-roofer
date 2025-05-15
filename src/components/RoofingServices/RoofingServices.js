@@ -2,7 +2,7 @@ import React from 'react';
 import { ServicesHeader } from './ServicesHeader';
 import { FeaturesGrid } from './FeaturesGrid';
 
-const RoofingServices = ({title, description, content, gridCol}) => {
+const RoofingServices = ({title, description, content, gridCol = "4"}) => {
   return (
     <section className="flex flex-col gap-12 items-center p-16 max-md:p-8 max-sm:p-6">
       <ServicesHeader title={title} description={description} />

@@ -10,7 +10,7 @@ export default function NavigationHeader() {
   const dropdownRef = useRef(null);
 
   // Close dropdown when clicking outside
-  useEffect(() => {
+  /*useEffect(() => {
     function handleClickOutside(event) {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         setDropdownOpen(false);
@@ -18,7 +18,7 @@ export default function NavigationHeader() {
     }
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
+  }, []);*/
 
   return (
     <nav className="relative flex justify-between items-center px-16 py-2 bg-blue1 max-md:px-8 max-md:py-2 max-sm:px-4 max-sm:py-2">
@@ -104,7 +104,7 @@ export default function NavigationHeader() {
         <>
           <div
             className="fixed inset-0 bg-black opacity-50 z-20"
-            onClick={() => setDrawerOpen(false)}
+            onClick={(e) => { setDrawerOpen(false); e.stopPropagation(); }}
           ></div>
           <div className="fixed top-0 right-0 w-64 h-full bg-blue1 shadow-lg z-30 p-4">
             <button
