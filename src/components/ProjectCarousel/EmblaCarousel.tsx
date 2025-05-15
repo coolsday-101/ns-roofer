@@ -76,7 +76,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
         </div>
       </div>
 
-      <div className="embla__controls mt-6 max-mobile1:hidden">
+      <div className="embla__controls mt-6 max-mobile2:hidden">
         <div className="flex items-center justify-center gap-6 w-full">
           <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
           <div className="hidden lg:flex">
