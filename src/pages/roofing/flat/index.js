@@ -98,7 +98,15 @@ const FlatRoofPage = () => {
   );
 };
 
-export const Head = () => <title>About Me</title>;
+export const Head = () => (
+  <>
+    <title>Shingle, Metal & Flat Roof Experts in Halifax | NS Roofer</title>
+    <meta
+      name="description"
+      content="NS Roofer offers expert roofing services in Halifax, including shingle, metal, and flat roof installations. Get durable, energy-efficient, and long-lasting solutions with free consultations."
+    />
+  </>
+);
 
 // Step 3: Export your component
 export default FlatRoofPage;

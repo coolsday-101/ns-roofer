@@ -85,7 +85,11 @@ const logos = [
 const ShingleRoofPage = () => {
   return (
     <Layout pageTitle="About Me">
-      <RoofingHero imgUrl={"https://cdn.builder.io/api/v1/image/assets/TEMP/e62a980ba634824ef0bb77edbf6f244618accf1d?placeholderIfAbsent=true&apiKey=38f565fe81c246beac087e9546709a6d"} />
+      <RoofingHero
+        imgUrl={
+          "https://cdn.builder.io/api/v1/image/assets/TEMP/e62a980ba634824ef0bb77edbf6f244618accf1d?placeholderIfAbsent=true&apiKey=38f565fe81c246beac087e9546709a6d"
+        }
+      />
       <DescriptionImage
         title="Shingle Roof"
         description={roofDescription()}
@@ -112,7 +116,15 @@ const ShingleRoofPage = () => {
   );
 };
 
-export const Head = () => <title>About Me</title>;
+export const Head = () => (
+  <>
+    <title>Shingle, Metal & Flat Roof Experts in Halifax | NS Roofer</title>
+    <meta
+      name="description"
+      content="NS Roofer offers expert roofing services in Halifax, including shingle, metal, and flat roof installations. Get durable, energy-efficient, and long-lasting solutions with free consultations."
+    />
+  </>
+);
 
 // Step 3: Export your component
 export default ShingleRoofPage;

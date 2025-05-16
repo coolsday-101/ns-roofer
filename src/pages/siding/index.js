@@ -115,7 +115,15 @@ const IndexPage = () => {
 };
 
 // You'll learn about this in the next task, just copy it for now
-export const Head = () => <title>Home Page</title>;
+export const Head = () => (
+  <>
+    <title>Siding Installation in Halifax | NS Roofer</title>
+    <meta
+      name="description"
+      content="Upgrade your home with durable siding solutions in Halifax. NS Roofer offers vinyl and metal siding, fascia, soffits, and eavestroughs—backed by a double lifetime warranty and expert local service. Get a free estimate today."
+    />
+  </>
+);
 
 // Step 3: Export your component
 export default IndexPage;
