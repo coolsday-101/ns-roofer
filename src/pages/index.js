@@ -31,13 +31,13 @@ import solarImage from "./images/solar.png";
 import annualImage from "./images/annual.png";
 
 const logos = [
-  { src: EPPLogo, className: "h-[48px]" },
-  { src: kentLogo, className: "h-[48px]" },
-  { src: logoLogo, className: "h-[48px]" },
-  { src: OIPLogo, className: "h-[48px] mobile2:h-[100px]" },
-  { src: picture2Logo, className: "h-[48px]" },
-  { src: picture3Logo, className: "h-[48px]" },
-  { src: rLogo, className: "h-[48px]" },
+  { src: EPPLogo, className: "h-[96px] md:h-[48px]" },
+  { src: kentLogo, className: "h-[96px] md:h-[48px]" },
+  { src: logoLogo, className: "h-[96px] md:h-[48px]" },
+  { src: OIPLogo, className: "h-[96px] mobile2:h-[100px]" },
+  { src: picture2Logo, className: "h-[96px] md:h-[48px]" },
+  { src: picture3Logo, className: "h-[96px] md:h-[48px]" },
+  { src: rLogo, className: "h-[96px] md:h-[48px]" },
 ];
 
 const features = [

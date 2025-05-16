@@ -3,7 +3,7 @@ import { BenefitsCard } from "./BenefitsCard";
 
 export const BenefitsGrid = () => {
   return (
-    <section className="flex flex-wrap flex-1 gap-2 mt-12 text-white size-full max-md:mt-10 max-md:max-w-full">
+    <section className="flex flex-wrap flex-1 gap-2 mt-4 text-white size-full max-md:mt-10 max-md:max-w-full">
       <div className="flex flex-col justify-center min-w-60 w-[505px] max-md:max-w-full">
         <BenefitsCard
           title="Protection"

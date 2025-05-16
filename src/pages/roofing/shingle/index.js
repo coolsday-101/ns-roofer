@@ -71,14 +71,14 @@ const teamDescription = () => {
 };
 
 const logos = [
-  { src: EPPLogo, className: "h-[48px]" },
-  { src: kentLogo, className: "h-[48px]" },
-  { src: logoLogo, className: "h-[48px]" },
-  { src: OIPLogo, className: "h-[48px]" },
-  { src: picture2Logo, className: "h-[48px]" },
-  { src: picture3Logo, className: "h-[48px]" },
-  { src: rLogo, className: "h-[48px]" },
-  { src: fiveLogo, className: "h-[48px]" },
+  { src: EPPLogo, className: "h-[48px] max-md:h-[96px]" },
+  { src: kentLogo, className: "h-[48px] max-md:h-[96px]" },
+  { src: logoLogo, className: "h-[48px] max-md:h-[96px]" },
+  { src: OIPLogo, className: "h-[48px] max-md:h-[96px]" },
+  { src: picture2Logo, className: "h-[48px] max-md:h-[96px]" },
+  { src: picture3Logo, className: "h-[48px] max-md:h-[96px]" },
+  { src: rLogo, className: "h-[48px] max-md:h-[96px]" },
+  { src: fiveLogo, className: "h-[48px] max-md:h-[96px]" },
 ];
 
 // Step 2: Define your component

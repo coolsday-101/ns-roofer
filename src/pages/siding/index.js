@@ -101,8 +101,8 @@ const IndexPage = () => {
         gridCol="3"
       />
       <NSRooferAdvantage title="NS Roofer Advantage" leftContent={leftColumnFeatures} rightContent={rightColumnFeatures} />
-      <section className="flex flex-col justify-center p-16 w-full min-h-[606px] max-md:px-5 max-md:max-w-full">
-        <div className="w-full min-h-[478px] max-md:max-w-full">
+      <section className="flex flex-col justify-center p-16 max-md:py-9 w-full min-h-[606px] max-md:px-5 max-md:max-w-full">
+        <div className="w-full min-h-[478px] max-md:max-w-full max-w-[1280px] mx-auto">
           <h1 className="w-full text-3xl font-semibold text-center text-gray-950 max-md:max-w-full">
             Why Do Siding
           </h1>

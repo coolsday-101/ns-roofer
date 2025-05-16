@@ -8,7 +8,7 @@ import MetalRoof5113Image from "./images/metal5113.png";
 
 import Checklist from "../../../components/Checklist/Checklist";
 import RecentProjects from "../../../components/RecentProjects/RecentProjects";
-import LogoBanner from "../../../components/LogoBanner/LogoBanner";
+import LogoImage from "../../../components/LogoBanner/LogoImage";
 import RoofBenefits from "../../../components/RoofBenefits/RoofBenefits";
 import kentLogo from "./logo/kent.jpg";
 import checklistData from "./checklistData";
@@ -45,7 +45,7 @@ const teamDescription = () => {
   );
 };
 
-const logos = [{ src: kentLogo, className: "h-[48px]" }];
+const logos = [{ src: kentLogo, className: "h-[96px]" }];
 
 // Step 2: Define your component
 const MetalRoofPage = () => {
@@ -63,7 +63,11 @@ const MetalRoofPage = () => {
         content={checklistData()}
         className="bg-white"
       />
-      <LogoBanner logos={logos} />
+      <section className="flex bg-cloud-grey flex-col justify-center p-16 w-full max-md:px-5 max-md:max-w-full">
+        <div className="w-full max-md:max-w-full">
+          <LogoImage src={logos[0].src} className={logos[0].className} />
+        </div>
+      </section>
       <DescriptionImage
         title="Built to Withstand Halifax Weather"
         description={teamDescription()}

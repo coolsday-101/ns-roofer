@@ -4,13 +4,13 @@ import ServiceCard from './ServiceCard';
 
 const ServicesSection = ({topServices, bottomServices}) => {
   return (
-    <section className="flex flex-col justify-center p-16 w-full bg-slate-600 max-md:px-5 max-md:max-w-full">
-      <div className="flex flex-col justify-center w-full max-md:max-w-full">
+    <section className="flex flex-col justify-center p-16 max-md:py-9 w-full bg-slate-600 max-md:px-5 max-md:max-w-full">
+      <div className="flex flex-col justify-center w-full max-md:max-w-full max-w-[1280px] mx-auto">
         <h2 className="text-3xl font-semibold text-center text-white max-md:max-w-full">
           What We Can Help With
         </h2>
 
-        <div className="mt-12 w-full max-md:mt-10 max-md:max-w-full">
+        <div className="mt-4 w-full max-md:max-w-full">
           <div className="flex flex-wrap gap-2 justify-center w-full min-h-[156px] max-md:max-w-full">
             {topServices.map((service, index) => (
               <ServiceCard
