@@ -12,7 +12,7 @@ export default function Footer() {
         {/* Logo and Social Media Section */}
         <div className="flex flex-col gap-8 mr-8">
           <StaticImage
-            src="../../images/logo/ns-roofer-logo.svg"
+            src="../../images/logo/footer-logo.png"
             alt="NS Roofer Logo"
             layout="fixed"
             width={200}
@@ -51,29 +51,58 @@ export default function Footer() {
           {/* Services Column */}
           <div className="flex flex-col gap-4">
             <h3 className="font-bold text-lg">Services</h3>
-            <Link to="/roofing/shingle" className="hover:text-cyan1">
-              Roofing
-            </Link>
-            <Link to="/insulation" className="hover:text-cyan1">
-              Insulation
-            </Link>
-            <Link to="/siding" className="hover:text-cyan1">
-              Siding
-            </Link>
-            <Link to="/repair" className="hover:text-cyan1">
-              Repair
-            </Link>
+            <div className="mobile2:hidden flex gap-[22px]">
+              <Link to="/roofing/shingle" className="hover:text-cyan1">
+                Roofing
+              </Link>
+              <Link to="/insulation" className="hover:text-cyan1">
+                Insulation
+              </Link>
+            </div>
+           
+              <Link to="/roofing/shingle" className="max-mobile2:hidden hover:text-cyan1">
+                Roofing
+              </Link>
+              <Link to="/insulation" className="max-mobile2:hidden hover:text-cyan1">
+                Insulation
+              </Link>
+      
+            <div className="mobile2:hidden flex gap-8">
+              <Link to="/siding" className="hover:text-cyan1">
+                Siding
+              </Link>
+              <Link to="/repair" className="hover:text-cyan1">
+                Repair
+              </Link>
+            </div>
+          
+              <Link to="/siding" className="max-mobile2:hidden hover:text-cyan1">
+                Siding
+              </Link>
+              <Link to="/repair" className="max-mobile2:hidden hover:text-cyan1">
+                Repair
+              </Link>
+        
           </div>
 
           {/* Quick Links Column */}
-          <div className="flex gap-8 w-[350px] font-bold text-lg">
+          <div className="flex max-mobile2:flex-col gap-4 w-[350px] font-bold text-lg">
             <Link to="/" className="hover:text-cyan1 inline">
               Home
             </Link>
+            <div className="mobile2:hidden flex gap-8">
             <Link to="/about-us" className="hover:text-cyan1 inline">
               About Us
             </Link>
             <Link to="/get-a-quote" className="hover:text-cyan1 inline">
+              Get a Quote
+            </Link>
+            </div>
+
+            <Link to="/about-us" className="max-mobile2:hidden hover:text-cyan1 inline">
+              About Us
+            </Link>
+            <Link to="/get-a-quote" className="max-mobile2:hidden hover:text-cyan1 inline">
               Get a Quote
             </Link>
           </div>
@@ -103,7 +132,7 @@ export default function Footer() {
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2034.7874533495292!2d-63.719804518061224!3d44.713562197570695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b598bd2d063f0bf%3A0x31ab389cb80ff1ec!2s30%20Rosno%20Ln%20%231%2C%20Bedford%2C%20NS%20B4B%201J7!5e0!3m2!1sen!2sca!4v1746916330720!5m2!1sen!2sca"
                 width="400"
                 height="300"
-                style={{border:0, position: "relative"}}
+                style={{ border: 0, position: "relative" }}
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"

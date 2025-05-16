@@ -51,7 +51,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
     onNextButtonClick,
   } = usePrevNextButtons(emblaApi, onNavButtonClick);
   return (
-    <section className="embla">
+    <section className="embla !m-0">
       <div className="embla__viewport" ref={emblaRef}>
         <div className={`flex ${slides.length < 5 ? "md:justify-center" : ""} ${slides.length === 1 ? "max-mobile1:justify-center" : ""}`}>
           {slides.map((slide, index) => (

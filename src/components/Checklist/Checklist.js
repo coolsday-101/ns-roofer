@@ -2,8 +2,8 @@ import React from "react";
 
 const Checklist = ({title, content, className}) => {
   return (
-    <section className={`${className} py-12 px-16 max-md:px-8 max-sm:px-4`}>
-      <h2 className="text-2xl font-bold mb-8 text-center">
+    <section className={`${className} py-16 px-16 max-mobile2:px-[20px] max-mobile2:py-9`}>
+      <h2 className="text-2xl font-bold mb-4 text-center">
         {title}
       </h2>
       {content}

@@ -71,21 +71,25 @@ const teamDescription = () => {
 };
 
 const logos = [
-  { src: EPPLogo, className: "h-[48px]" },
-  { src: kentLogo, className: "h-[48px]" },
-  { src: logoLogo, className: "h-[48px]" },
-  { src: OIPLogo, className: "h-[48px]" },
-  { src: picture2Logo, className: "h-[48px]" },
-  { src: picture3Logo, className: "h-[48px]" },
-  { src: rLogo, className: "h-[48px]" },
-  { src: fiveLogo, className: "h-[48px]" },
+  { src: EPPLogo, className: "h-[48px] max-md:h-[96px]" },
+  { src: kentLogo, className: "h-[48px] max-md:h-[96px]" },
+  { src: logoLogo, className: "h-[48px] max-md:h-[96px]" },
+  { src: OIPLogo, className: "h-[48px] max-md:h-[96px]" },
+  { src: picture2Logo, className: "h-[48px] max-md:h-[96px]" },
+  { src: picture3Logo, className: "h-[48px] max-md:h-[96px]" },
+  { src: rLogo, className: "h-[48px] max-md:h-[96px]" },
+  { src: fiveLogo, className: "h-[48px] max-md:h-[96px]" },
 ];
 
 // Step 2: Define your component
 const ShingleRoofPage = () => {
   return (
     <Layout pageTitle="About Me">
-      <RoofingHero imgUrl={"https://cdn.builder.io/api/v1/image/assets/TEMP/e62a980ba634824ef0bb77edbf6f244618accf1d?placeholderIfAbsent=true&apiKey=38f565fe81c246beac087e9546709a6d"} />
+      <RoofingHero
+        imgUrl={
+          "https://cdn.builder.io/api/v1/image/assets/TEMP/e62a980ba634824ef0bb77edbf6f244618accf1d?placeholderIfAbsent=true&apiKey=38f565fe81c246beac087e9546709a6d"
+        }
+      />
       <DescriptionImage
         title="Shingle Roof"
         description={roofDescription()}
@@ -101,7 +105,7 @@ const ShingleRoofPage = () => {
         title="Meet Our Team"
         description={teamDescription()}
         image={MeetingRoomImage}
-        className="flex-row-reverse"
+        className="flex-row-reverse md:mt-16"
       />
       <RecentProjects
         title="Ready to Talk Roofing?"
@@ -112,7 +116,15 @@ const ShingleRoofPage = () => {
   );
 };
 
-export const Head = () => <title>About Me</title>;
+export const Head = () => (
+  <>
+    <title>Shingle, Metal & Flat Roof Experts in Halifax | NS Roofer</title>
+    <meta
+      name="description"
+      content="NS Roofer offers expert roofing services in Halifax, including shingle, metal, and flat roof installations. Get durable, energy-efficient, and long-lasting solutions with free consultations."
+    />
+  </>
+);
 
 // Step 3: Export your component
 export default ShingleRoofPage;

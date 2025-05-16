@@ -31,13 +31,13 @@ import solarImage from "./images/solar.png";
 import annualImage from "./images/annual.png";
 
 const logos = [
-  { src: EPPLogo, className: "h-[48px]" },
-  { src: kentLogo, className: "h-[48px]" },
-  { src: logoLogo, className: "h-[48px]" },
-  { src: OIPLogo, className: "h-[48px]" },
-  { src: picture2Logo, className: "h-[48px]" },
-  { src: picture3Logo, className: "h-[48px]" },
-  { src: rLogo, className: "h-[48px]" },
+  { src: EPPLogo, className: "h-[96px] md:h-[48px]" },
+  { src: kentLogo, className: "h-[96px] md:h-[48px]" },
+  { src: logoLogo, className: "h-[96px] md:h-[48px]" },
+  { src: OIPLogo, className: "h-[96px] mobile2:h-[100px]" },
+  { src: picture2Logo, className: "h-[96px] md:h-[48px]" },
+  { src: picture3Logo, className: "h-[96px] md:h-[48px]" },
+  { src: rLogo, className: "h-[96px] md:h-[48px]" },
 ];
 
 const features = [
@@ -138,7 +138,15 @@ const IndexPage = () => {
 };
 
 // You'll learn about this in the next task, just copy it for now
-export const Head = () => <title>Home Page</title>;
+export const Head = () => (
+  <>
+    <title>Top Roofing Experts in Nova Scotia | NS Roofer</title>
+    <meta
+      name="description"
+      content="Trusted local roofing company serving Nova Scotia with affordable installations, solar-ready upgrades, and fast repairs. Get a FREE quote in 48 hours. Quality guaranteed with long-term warranties."
+    />
+  </>
+);
 
 // Step 3: Export your component
 export default IndexPage;

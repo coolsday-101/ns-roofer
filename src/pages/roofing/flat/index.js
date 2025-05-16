@@ -77,7 +77,7 @@ const FlatRoofPage = () => {
         title="Built for Performance and Possibility"
         description={teamDescription()}
         image={Flat2Image}
-        className="flex-row-reverse"
+        className="flex-row-reverse md:mt-16"
       />
       <PlanYourProject
         title="Let's Plan Your Project"
@@ -98,7 +98,15 @@ const FlatRoofPage = () => {
   );
 };
 
-export const Head = () => <title>About Me</title>;
+export const Head = () => (
+  <>
+    <title>Shingle, Metal & Flat Roof Experts in Halifax | NS Roofer</title>
+    <meta
+      name="description"
+      content="NS Roofer offers expert roofing services in Halifax, including shingle, metal, and flat roof installations. Get durable, energy-efficient, and long-lasting solutions with free consultations."
+    />
+  </>
+);
 
 // Step 3: Export your component
 export default FlatRoofPage;

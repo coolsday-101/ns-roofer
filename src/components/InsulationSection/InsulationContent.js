@@ -7,11 +7,11 @@ export const InsulationContent = () => {
       <h2 className="flex-1 shrink gap-2 w-full text-3xl basis-0 text-gray-950 max-md:max-w-full">
         Should I Do Insulation?
       </h2>
-      <p className="mt-6 leading-6 text-gray-950 max-md:max-w-full">
+      <p className="mt-4 leading-6 text-gray-950 max-md:max-w-full">
         If your home experiences any of these problems, it might be a good
         candidate for an insulation project:
       </p>
-      <ul className="mt-6 w-full leading-6 max-md:max-w-full space-y-2">
+      <ul className="mt-4 w-full leading-6 max-md:max-w-full space-y-2">
         <InsulationCheckItem icon="https://cdn.builder.io/api/v1/image/assets/TEMP/3728e75afe7800ab78762df1b5ca751e60031248?placeholderIfAbsent=true&apiKey=38f565fe81c246beac087e9546709a6d" text="Drafty rooms" />
         <InsulationCheckItem
           icon="https://cdn.builder.io/api/v1/image/assets/TEMP/0fff26b6602c036c35087394752072a19a624a8d?placeholderIfAbsent=true&apiKey=38f565fe81c246beac087e9546709a6d"

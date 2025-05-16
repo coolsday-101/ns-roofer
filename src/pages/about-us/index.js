@@ -115,7 +115,15 @@ const IndexPage = () => {
 };
 
 // You'll learn about this in the next task, just copy it for now
-export const Head = () => <title>Home Page</title>;
+export const Head = () => (
+  <>
+    <title>Certified Roofing Experts in Halifax | NS Roofer</title>
+    <meta
+      name="description"
+      content="Learn about NS Roofer—GAF-certified, fully insured roofing professionals serving Halifax and beyond. Trusted for quality, safety, and 5-star service in residential and government projects."
+    />
+  </>
+);
 
 // Step 3: Export your component
 export default IndexPage;

@@ -2,7 +2,7 @@ import React from 'react';
 
 const ServiceCard = ({ icon, text, customContent }) => {
   return (
-    <article className="flex flex-col flex-1 shrink p-6 text-xl font-semibold text-center text-white basis-0 bg-opacity-0 min-w-60 max-md:px-5">
+    <article className="flex flex-col flex-1 shrink p-6 text-xl font-semibold text-center text-white basis-0 bg-opacity-0 min-w-60 max-w-[282px] max-md:px-5">
       {icon && (
         <img
           src={icon}

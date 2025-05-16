@@ -39,12 +39,12 @@ const RoofBenefits = () => {
   ];
 
   return (
-    <section className="flex flex-col justify-center p-16 text-white bg-slate-600 max-md:px-5">
+    <section className="flex flex-col justify-center p-16 text-white bg-slate-600 max-md:px-5 max-md:py-9">
       <div className="flex flex-col justify-center w-full max-md:max-w-full">
         <h2 className="text-3xl font-semibold text-center text-white max-md:max-w-full">
           Why Choose a Metal Roof?
         </h2>
-        <div className="flex flex-wrap gap-10 justify-center mt-12 w-full max-md:mt-10 max-md:max-w-full">
+        <div className="flex flex-wrap gap-10 justify-center mt-12 w-full max-md:mt-10 max-md:max-w-full max-w-[1280px] mx-auto">
           {benefits.map((benefit, index) => (
             <BenefitCard
               key={index}
