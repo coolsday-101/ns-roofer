@@ -4,7 +4,7 @@ import { QuoteFormSection } from './QuoteFormSection';
 
 const QuoteRequestForm = () => {
   return (
-    <main className="flex flex-wrap justify-center">
+    <main className="flex flex-wrap justify-start tablet2:h-[850px]">
       <ContactInfoSection />
       <QuoteFormSection />
     </main>
