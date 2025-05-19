@@ -44,7 +44,7 @@ const RoofBenefits = () => {
         <h2 className="text-3xl font-semibold text-center text-white max-md:max-w-full">
           Why Choose a Metal Roof?
         </h2>
-        <div className="flex flex-wrap gap-10 justify-center mt-12 w-full max-md:mt-10 max-md:max-w-full max-w-[1280px] mx-auto">
+        <div className="flex flex-wrap gap-12 justify-center mt-12 w-full max-md:mt-10 max-md:max-w-full max-w-[1280px] mx-auto">
           {benefits.map((benefit, index) => (
             <BenefitCard
               key={index}

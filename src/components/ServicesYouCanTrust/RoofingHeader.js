@@ -1,8 +1,8 @@
 import React from 'react';
 
-const RoofingHeader = ({title, description}) => {
+const RoofingHeader = ({title, description, cta}) => {
   return (
-    <header className="flex flex-col gap-6 items-center">
+    <header className={`flex flex-col ${cta ? 'gap-6' : ''} items-center`}>
       <h1 className="text-3xl font-semibold text-center text-gray-950 max-md:text-3xl max-sm:text-2xl">
         {title}
       </h1>

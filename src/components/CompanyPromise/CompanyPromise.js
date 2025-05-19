@@ -17,9 +17,14 @@ export const CompanyPromise = () => {
           <div className="mt-4 text-sm leading-6 text-white max-md:max-w-full">
             <p>
               We're not just here to fix—we're here to protect your home. That's
-              why every repair is completed with care, quality materials, and
-              attention to detail. Our quotes are clear, our team is responsive,
-              and our service is backed by years of local experience.
+              why every repair is
+            </p>
+            <p>
+              completed with care, quality materials, and attention to detail.
+            </p>
+            <p>
+              Our quotes are clear, our team is responsive, and our service is
+              backed by years of local experience.
             </p>
             <p className="font-bold text-base leading-6 mt-2">
               Warranty details are included in the contract

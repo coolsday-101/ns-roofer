@@ -130,6 +130,7 @@ const IndexPage = () => {
           </>
         }
         content={servicesData}
+        className="bg-cloud-grey"
       />
       <BringSolarToLife projectData={data} />
       <LogoBanner logos={logos} />

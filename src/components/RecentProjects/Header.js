@@ -6,9 +6,9 @@ const Header = ({title, description}) => {
       <h1 className="text-3xl font-semibold text-gray-950 max-md:max-w-full">
         {title}
       </h1>
-      <p className="mt-6 text-sm leading-6 text-gray-950 max-md:max-w-full">
+      {description && <p className="mt-6 text-sm leading-6 text-gray-950 max-md:max-w-full">
         {description}
-      </p>
+      </p>}
     </header>
   );
 };

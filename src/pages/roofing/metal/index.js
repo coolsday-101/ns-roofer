@@ -63,16 +63,11 @@ const MetalRoofPage = () => {
         content={checklistData()}
         className="bg-white"
       />
-      <section className="flex bg-cloud-grey flex-col justify-center p-16 w-full max-md:px-5 max-md:max-w-full">
-        <div className="w-full max-md:max-w-full">
-          <LogoImage src={logos[0].src} className={logos[0].className} />
-        </div>
-      </section>
       <DescriptionImage
         title="Built to Withstand Halifax Weather"
         description={teamDescription()}
         image={MetalRoof5113Image}
-        className="flex-row-reverse"
+        className="flex-row-reverse bg-cloud-grey"
       />
       <RecentProjects
         title="Book a Free Consultation"
@@ -87,7 +82,13 @@ const MetalRoofPage = () => {
           </>
         }
         data={recentProjectData}
+        className="bg-white"
       />
+      <section className="flex bg-cloud-grey flex-col justify-center p-16 w-full max-md:px-5 max-md:max-w-full">
+        <div className="w-full max-md:max-w-full">
+          <LogoImage src={logos[0].src} className={logos[0].className} />
+        </div>
+      </section>
     </Layout>
   );
 };

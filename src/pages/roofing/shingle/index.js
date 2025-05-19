@@ -100,18 +100,18 @@ const ShingleRoofPage = () => {
         content={checklistData()}
         className="bg-blue1 text-white"
       />
-      <LogoBanner logos={logos} />
       <DescriptionImage
         title="Meet Our Team"
         description={teamDescription()}
         image={MeetingRoomImage}
-        className="flex-row-reverse md:mt-16"
+        className="flex-row-reverse"
       />
       <RecentProjects
         title="Ready to Talk Roofing?"
         description="Book a free consultation with NS Roofer today. Our team is here to educate you on your options and guide you to the right roofing solution before you make a decision. Your home deserves the best—let’s get started."
         data={recentProjectData}
       />
+      <LogoBanner logos={logos} className="bg-white" />
     </Layout>
   );
 };
