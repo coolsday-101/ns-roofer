@@ -20,7 +20,7 @@ export default function Footer() {
           />
           <div className="flex gap-4">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/nsroofer"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -32,7 +32,7 @@ export default function Footer() {
               />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/nsroofer/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -59,14 +59,14 @@ export default function Footer() {
                 Insulation
               </Link>
             </div>
-           
+
               <Link to="/roofing/shingle" className="max-mobile2:hidden hover:text-cyan1">
                 Roofing
               </Link>
               <Link to="/insulation" className="max-mobile2:hidden hover:text-cyan1">
                 Insulation
               </Link>
-      
+
             <div className="mobile2:hidden flex gap-8">
               <Link to="/siding" className="hover:text-cyan1">
                 Siding
@@ -75,14 +75,14 @@ export default function Footer() {
                 Repair
               </Link>
             </div>
-          
+
               <Link to="/siding" className="max-mobile2:hidden hover:text-cyan1">
                 Siding
               </Link>
               <Link to="/repair" className="max-mobile2:hidden hover:text-cyan1">
                 Repair
               </Link>
-        
+
           </div>
 
           {/* Quick Links Column */}
