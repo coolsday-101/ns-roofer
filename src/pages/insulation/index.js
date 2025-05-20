@@ -20,6 +20,14 @@ import top5Image from "./images/noise-reduction.png";
 import solarImage from "./images/moisture-control.png";
 import annualImage from "./images/tax-incentives.png";
 
+import budgetIcon from "./icons/budget.svg";
+import customizedIcon from "./icons/customized.svg";
+import localIcon from "./icons/local.svg";
+import priceIcon from "./icons/price.svg";
+import providerIcon from "./icons/provider.svg";
+import seamlessIcon from "./icons/seamless.svg";
+import yearIcon from "./icons/year.svg";
+
 import recentProjectData from "../../projectData/insulation/data/recentProjectData";
 
 const features = [
@@ -86,29 +94,25 @@ const servicesData = [
 
 const leftColumnFeatures = [
   {
-    imageUrl:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/819882c7160c9c858afe01b9fa58bb501c95e9fe?placeholderIfAbsent=true&apiKey=38f565fe81c246beac087e9546709a6d",
+    imageUrl: localIcon,
     title: "Local Material",
     description:
       "Locally Sourced Materials. Comprehensive Roofing & Insulation Services. Guaranteed Satisfaction.",
   },
   {
-    imageUrl:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/acd056f16befaa321a07e7a398782718ebc9739a?placeholderIfAbsent=true&apiKey=38f565fe81c246beac087e9546709a6d",
+    imageUrl: budgetIcon,
     title: "Budget-Friendly",
     description:
       "Bundling services cuts costs and guarantees consistent quality across all work.",
   },
   {
-    imageUrl:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/a7c856739fd087a1621b5de27cdd0eb4a10a535f?placeholderIfAbsent=true&apiKey=38f565fe81c246beac087e9546709a6d",
+    imageUrl: yearIcon,
     title: "Year-Round Quick Service",
     description:
       "Emergency repairs or planned upgrades—we're here 365 days a year.",
   },
   {
-    imageUrl:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/1e505956aea0e3e058f8cc37d271e0d5098364c7?placeholderIfAbsent=true&apiKey=38f565fe81c246beac087e9546709a6d",
+    imageUrl: priceIcon,
     title: "Price Match Guarantee",
     description: "Transparent price with NO HIDDEN fee",
   },
@@ -116,22 +120,19 @@ const leftColumnFeatures = [
 
 const rightColumnFeatures = [
   {
-    imageUrl:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/2a611d788972fd295a2781b1d7b68cd764b590ad?placeholderIfAbsent=true&apiKey=38f565fe81c246beac087e9546709a6d",
+    imageUrl: providerIcon,
     title: "One-Stop Service Provider",
     description:
       "Tackle attic ventilation, siding, drywall, and insulation in one project instead of coordinating with multiple contractors.",
   },
   {
-    imageUrl:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/bbe082cb46d77765541316a3d0ef77a9ef1fb20b?placeholderIfAbsent=true&apiKey=38f565fe81c246beac087e9546709a6d",
+    imageUrl: seamlessIcon,
     title: "Seamless Coordination",
     description:
       "Our expert team handles every detail, ensuring flawless integration of services.",
   },
   {
-    imageUrl:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/7333d8ae09fbea647bf77d2a37a13a384cab1f17?placeholderIfAbsent=true&apiKey=38f565fe81c246beac087e9546709a6d",
+    imageUrl: customizedIcon,
     title: "Customized to You",
     description:
       "Your vision, our expertise. Every project is tailored to your style and needs.",

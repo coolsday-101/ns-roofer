@@ -77,7 +77,7 @@ const FlatRoofPage = () => {
         title="Built for Performance and Possibility"
         description={teamDescription()}
         image={Flat2Image}
-        className="flex-row-reverse md:mt-16"
+        className="flex-row-reverse"
       />
       <PlanYourProject
         title="Let's Plan Your Project"

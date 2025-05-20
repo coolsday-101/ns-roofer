@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const LogoBanner = ({ logos }) => {
+const LogoBanner = ({ logos, className }) => {
   // Settings for react-slick
   const settings = {
     autoplay: true,
@@ -26,7 +26,7 @@ const LogoBanner = ({ logos }) => {
   };
 
   return (
-    <section className="flex bg-cloud-grey flex-col justify-center p-16 w-full max-md:px-5 max-md:max-w-full">
+    <section className={`flex bg-cloud-grey flex-col justify-center p-16 w-full max-md:px-5 max-md:max-w-full ${className}`}>
       <div className="w-full max-md:max-w-full">
         {/* Desktop: flex, Mobile: carousel */}
         <div className="hidden max-md:block">

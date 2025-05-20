@@ -23,7 +23,7 @@ const benefits = [
 
 const checklistData = () => {
   return (
-    <div className="grid grid-cols-3 gap-2 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:h-auto overflow-auto h-fit max-w-[1280px] mx-auto">
+    <div className="grid grid-cols-3 gap-4 gap-x-12 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:h-auto overflow-auto h-fit max-w-[1280px] mx-auto">
       {benefits.map((benefit, index) => (
         <div key={index} className="flex items-start gap-2">
           <img

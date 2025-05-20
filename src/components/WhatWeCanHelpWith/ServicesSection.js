@@ -10,7 +10,7 @@ const ServicesSection = ({topServices, bottomServices}) => {
           What We Can Help With
         </h2>
 
-        <div className="mt-4 w-full max-md:max-w-full">
+        <div className="mt-12 w-full max-md:max-w-full">
           <div className="flex flex-wrap gap-2 justify-center w-full min-h-[156px] max-md:max-w-full">
             {topServices.map((service, index) => (
               <ServiceCard
