@@ -98,7 +98,7 @@ const ShingleRoofPage = () => {
       <Checklist
         title="Benefits of Asphalt Shingled Roofs"
         content={checklistData()}
-        className="bg-blue1 text-white"
+        className="bg-cloud-grey text-black"
       />
       <DescriptionImage
         title="Meet Our Team"
