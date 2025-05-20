@@ -23,13 +23,13 @@ export default function NavigationHeader() {
 
   return (
     <nav className="relative flex justify-between items-center px-16 py-2 bg-blue1 max-md:px-8 max-md:py-2 max-sm:px-4 max-sm:py-2">
-      <StaticImage
+      <Link href="/"><StaticImage
         src={"../../images/logo/ns-roofer-logo.svg"}
         alt="NS Roofer Logo"
         layout="fixed"
         width={100}
         height={25}
-      />
+      /></Link>
 
       <div className="flex gap-12 items-center max-sm:hidden">
         <Link
