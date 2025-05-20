@@ -60,12 +60,18 @@ export default function Footer() {
               </Link>
             </div>
 
-              <Link to="/roofing/shingle" className="max-mobile2:hidden hover:text-cyan1">
-                Roofing
-              </Link>
-              <Link to="/insulation" className="max-mobile2:hidden hover:text-cyan1">
-                Insulation
-              </Link>
+            <Link
+              to="/roofing/shingle"
+              className="max-mobile2:hidden hover:text-cyan1"
+            >
+              Roofing
+            </Link>
+            <Link
+              to="/insulation"
+              className="max-mobile2:hidden hover:text-cyan1"
+            >
+              Insulation
+            </Link>
 
             <div className="mobile2:hidden flex gap-8">
               <Link to="/siding" className="hover:text-cyan1">
@@ -76,13 +82,12 @@ export default function Footer() {
               </Link>
             </div>
 
-              <Link to="/siding" className="max-mobile2:hidden hover:text-cyan1">
-                Siding
-              </Link>
-              <Link to="/repair" className="max-mobile2:hidden hover:text-cyan1">
-                Repair
-              </Link>
-
+            <Link to="/siding" className="max-mobile2:hidden hover:text-cyan1">
+              Siding
+            </Link>
+            <Link to="/repair" className="max-mobile2:hidden hover:text-cyan1">
+              Repair
+            </Link>
           </div>
 
           {/* Quick Links Column */}
@@ -90,19 +95,25 @@ export default function Footer() {
             <Link to="/" className="hover:text-cyan1 inline">
               Home
             </Link>
-            <div className="mobile2:hidden flex gap-8">
-            <Link to="/about-us" className="hover:text-cyan1 inline">
-              About Us
-            </Link>
-            <Link to="/get-a-quote" className="hover:text-cyan1 inline">
-              Get a Quote
-            </Link>
+            <div className="mobile2:hidden flex flex-col gap-4">
+              <Link to="/about-us" className="hover:text-cyan1 inline">
+                About Us
+              </Link>
+              <Link to="/get-a-quote" className="hover:text-cyan1 inline">
+                Get a Quote
+              </Link>
             </div>
 
-            <Link to="/about-us" className="max-mobile2:hidden hover:text-cyan1 inline">
+            <Link
+              to="/about-us"
+              className="max-mobile2:hidden hover:text-cyan1 inline"
+            >
               About Us
             </Link>
-            <Link to="/get-a-quote" className="max-mobile2:hidden hover:text-cyan1 inline">
+            <Link
+              to="/get-a-quote"
+              className="max-mobile2:hidden hover:text-cyan1 inline"
+            >
               Get a Quote
             </Link>
           </div>

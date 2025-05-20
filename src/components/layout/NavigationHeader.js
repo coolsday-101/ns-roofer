@@ -60,7 +60,7 @@ export default function NavigationHeader() {
             <>
               {" "}
               <div
-                className="absolute h-[20px] w-[50px] z-100"
+                className="absolute h-[20px] w-[80px] z-100"
                 onMouseEnter={() => setDropdownOpen(true)}
                 onMouseLeave={() => setDropdownOpen(false)}
               ></div>
