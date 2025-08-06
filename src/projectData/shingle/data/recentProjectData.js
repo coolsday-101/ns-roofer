@@ -20,6 +20,14 @@ import shingle15 from "./images/shingle/shingle15.jpg";
 import shingle16 from "./images/shingle/shingle16.jpg";
 import shingle17 from "./images/shingle/shingle17.jpg";
 
+import shingle18 from "./images/shingle/1.avif";
+import shingle19 from "./images/shingle/2.avif";
+import shingle20 from "./images/shingle/3.avif";
+import shingle21 from "./images/shingle/4.avif";
+import shingle22 from "./images/shingle/5.avif";
+import shingle23 from "./images/shingle/6.avif";
+import shingle24 from "./images/shingle/7.avif";
+
 // Data Array
 const recentProjectData = [
     // Shingle
@@ -40,6 +48,13 @@ const recentProjectData = [
     { img: shingle15, label: "shingle" },
     { img: shingle16, label: "shingle" },
     { img: shingle17, label: "shingle" },
+    { img: shingle18, label: "shingle" },
+    { img: shingle19, label: "shingle" },
+    { img: shingle20, label: "shingle" },
+    { img: shingle21, label: "shingle" },
+    { img: shingle22, label: "shingle" },
+    { img: shingle23, label: "shingle" },
+    { img: shingle24, label: "shingle" },
 ];
 
 export default recentProjectData;
